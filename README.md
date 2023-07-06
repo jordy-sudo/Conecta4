@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+Conecta 4
+Este es un juego de Conecta 4 implementado en React. El objetivo del juego es conectar cuatro fichas del mismo color de forma vertical, horizontal o diagonal en un tablero de 7x6.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Requisitos
+Tablero de 7x6: El juego se juega en un tablero de 7 columnas y 6 filas.
+Fichas Rojas y Amarillas: Los jugadores tienen fichas de colores rojo y amarillo. El jugador que juega primero siempre tiene fichas rojas.
+Juego entre dos personas: No se incluye la funcionalidad de jugar contra la aplicación. Se asume que dos personas reales se turnarán para jugar.
+Colocar fichas: Al seleccionar una columna, la ficha del jugador actual se coloca en la posición más baja disponible en esa columna.
+Contador de partidas ganadas: Se guarda el número de partidas ganadas por cada equipo mientras la aplicación no se reinicie.
+Reiniciar partida y resetear contador: Hay dos botones disponibles, uno para reiniciar la partida en curso y otro para resetear el contador de victorias y derrotas.
+Funcionalidades adicionales
+Siéntete libre de agregar cualquier funcionalidad extra que consideres adecuada para mejorar el juego y la experiencia de usuario.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Cómo ejecutar el juego
+Clona este repositorio en tu máquina local.
+Abre una terminal en la carpeta raíz del proyecto.
+Ejecuta el siguiente comando para instalar las dependencias del proyecto:
+Copy code
+npm install
+Una vez finalizada la instalación, ejecuta el siguiente comando para iniciar el juego:
+sql
+Copy code
+npm start
+Abre tu navegador web y ve a http://localhost:3000 para jugar al Conecta 4.
+¡Diviértete jugando al Conecta 4!
